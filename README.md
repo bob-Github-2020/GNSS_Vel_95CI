@@ -3,6 +3,7 @@ A Python program for calculating the 95%CI for GNSS-derived site velocities
 
 Function_GNSS_95CI.py is a Python function for calculating the site velocity (b) and its 95%CI for GNSS-derived daily displacement time series.
 The detailed methods are adressed in:
+
 Wang, G. (2022). The 95% Confidence Interval for GNSS-Derived Site Velocities, J. Surv. Eng. 2022, 148(1): 04021030. 
 http://doi.org/10.1061/(ASCE)SU.1943-5428.0000390
 
