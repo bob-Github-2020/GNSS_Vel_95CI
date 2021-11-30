@@ -10,8 +10,6 @@ import pandas as pd
 from pandas import read_csv
 from Function_GNSS_95CI import cal_95CI
 
-# directory = '/home/gwang/Python_Program/cal_95CI'
-
 directory = './'
 # The 'fin' file should include 4 or more columns
 # col1:"Decimal_Year'; col2:"Dis.NS"; Col3:"Dis.EW"; Col4:"Dis.UD"
