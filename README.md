@@ -12,19 +12,23 @@ You may need to install "pandas", "matplotlib", "statsmodels" on yur computer if
 How--- "pip install pandas", "pip install matplotlib", "pip install statsmodels".
 
 How to test the package on your computer?
-Put following files on a folder:
+
+Put following files into a folder:
 Main_cal_95CI.py
 Function_GNSS_95CI.py
 UH01_GOM20_neu_cm.col
 .....
 
 Change your work directory to the folder,
+
 For Linux system users:
 Type "./Main_cal_95CI.py" in your terminal
+
 For Windows system users:
 Type " python Main_cal_95CI.py" in your CMD window
 
-# result_NS=cal_95CI(year,dis,GNSS, ENU='NS',plot='on', pltshow='on')
+cal_95CI(year,dis,GNSS, ENU='NS',plot='on', pltshow='on')
+
 Try plot='off', pltshow='off'
 
 Good Luck!
