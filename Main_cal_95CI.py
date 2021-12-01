@@ -16,8 +16,7 @@ directory = './'
 
 for fin in os.listdir(directory):
     if fin.endswith("neu_cm.col"):
-  #  if fin.endswith("XP5_HRF20_neu_cm.col"):
-       print(fin)
+       # print(fin)
        # Extract two columns from the input file: decimal-year and displacement
        GNSS = fin[0:4]    # station name, e.g., UH01
        plot ='on'         # or 'off'
