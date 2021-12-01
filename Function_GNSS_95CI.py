@@ -286,7 +286,7 @@ def cal_95CI(year,ts,GNSS,ENU,plot,pltshow):
           nlag=1000 
           
        plot_acf(data, fft=True, lags=nlag,zero=False, title='ACF: '+ GNSS+'_'+ENU)
-       plt.savefig(GNSS + ENU + "_ACF.pdf")
+       plt.savefig(GNSS +'_'+ ENU + "_ACF.pdf")
        # plt.show()
     # end if
        
