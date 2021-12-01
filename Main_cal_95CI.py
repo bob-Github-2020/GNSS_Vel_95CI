@@ -12,7 +12,7 @@ from Function_GNSS_95CI import cal_95CI
 
 directory = './'
 # The 'fin' file should include 4 or more columns
-# col1:"Decimal_Year'; col2:"Dis.NS"; Col3:"Dis.EW"; Col4:"Dis.UD"
+# col1:"Decimal_Year'; col2:"Dis_NS"; Col3:"Dis_EW"; Col4:"Dis_UD"
 
 for fin in os.listdir(directory):
     if fin.endswith("neu_cm.col"):
