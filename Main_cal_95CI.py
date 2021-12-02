@@ -8,7 +8,7 @@
 import os
 import pandas as pd
 from pandas import read_csv
-from Function_GNSS_95CI import cal_95CI
+import GNSS_Vel_95%CI
 
 directory = './'
 # The 'fin' file should include 4 or more columns
