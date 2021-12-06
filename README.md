@@ -8,12 +8,16 @@ http://doi.org/10.1061/(ASCE)SU.1943-5428.0000390
 
 Main_cal_95CI.py illustrates the method of implementing "GNSS_Vel_95CI.py" into your own Python program.
 You may need to install "pandas", "matplotlib", "statsmodels" on yur computer if you have not used them before.
+
 How--- "pip install pandas", "pip install matplotlib", "pip install statsmodels".
 
 How to run the module on your computer?
 Download following files into a folder:
+
 Main_cal_95CI.py
+
 GNSS_Vel_95%CI.py
+
 UH01_GOM20_neu_cm.col  (sample file)
 .....
 
