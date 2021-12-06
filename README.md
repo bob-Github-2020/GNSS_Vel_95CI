@@ -16,7 +16,7 @@ Download following files into a folder:
 
 Main_cal_95CI.py
 GNSS_Vel_95%CI.py
-UH01_GOM20_neu_cm.col  (sample file)
+MRHK_GOM20_neu_cm.col  (sample file)
 .....
 
 Change your work directory to the folder/directory:
