@@ -32,3 +32,7 @@ Type " python Main_cal_95CI.py" in your CMD window
 Good Luck!
 
 bob.g.wang@gmail.com
+
+![MRHK_UD_ACF](https://user-images.githubusercontent.com/65426380/144933002-c7eeab12-a110-4031-93b2-120011c5340f.png)
+
+![MRHK_UD_Decomposition](https://user-images.githubusercontent.com/65426380/144933099-974bdde7-1c14-4e3e-9d65-5280b60a430b.png)
