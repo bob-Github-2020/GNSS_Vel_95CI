@@ -18,10 +18,13 @@ UH01_GOM20_neu_cm.col  (sample file)
 .....
 
 Change your work directory to the folder,
+
 For Linux system users:
+
 Type "./Main_cal_95CI.py" in your terminal
 
 For Windows system users:
+
 Type " python Main_cal_95CI.py" in your CMD window
 
 Good Luck!
