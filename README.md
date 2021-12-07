@@ -31,7 +31,8 @@ Type " python Main_cal_95CI.py" in your CMD window
 
 Good Luck!
 
-bob.g.wang@gmail.com
+For comments, please contact: bob.g.wang@gmail.com
+
 Two figures output from the module:
 
 ![MRHK_UD_ACF](https://user-images.githubusercontent.com/65426380/144933002-c7eeab12-a110-4031-93b2-120011c5340f.png)
