@@ -1,5 +1,5 @@
 # GNSS_Vel_95%CI
-A Python program for calculating the 95%CI for GNSS-derived site velocities
+A Python program for calculating the 95%CI for GNSS-derived site velocities, by B. Cornelison and G. Wang.
 
 GNSS_Vel_95CI.py is a Python module for the calculation of the site velocity (b) and its 95%CI for GNSS-derived daily displacement time series.
 The detailed methods are adressed in:
