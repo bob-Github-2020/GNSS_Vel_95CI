@@ -301,7 +301,7 @@ def cal_95CI(year,ts,GNSS,ENU,output,pltshow):
 
        y=y.ravel()
        plt.fill_between(x, y)
-       plt.xlabel('Time_lag (days)')
+       plt.xlabel('Time-lag (Days)')
        plt.ylabel('ACF')
        plt.title('ACF: '+GNSS+'-'+ENU)
 
