@@ -54,9 +54,9 @@ bob.g.wang@gmail.com
 
 # Two figures output from the module
 
-![MRHK_UD_ACF](https://user-images.githubusercontent.com/65426380/145663557-366529f1-8883-4439-9432-2693262e4349.png)
+![MRHK_UD_ACF](https://user-images.githubusercontent.com/65426380/167514723-83626229-3c40-4256-8bbc-f22d2082bd98.png)
 
-![MRHK_UD_Decomposition](https://user-images.githubusercontent.com/65426380/144967345-ca5b2264-c82e-46cf-8eed-a23d8466f6f9.png)
+![MRHK_UD_Decomposition](https://user-images.githubusercontent.com/65426380/167514732-2b55fd4e-ba06-473c-a42e-282c56ae44ea.png)
 
 # Detailed Method
 
