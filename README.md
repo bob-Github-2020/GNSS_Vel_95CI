@@ -56,7 +56,8 @@ bob.g.wang@gmail.com
 
 ![MRHK_UD_ACF](https://user-images.githubusercontent.com/65426380/167514723-83626229-3c40-4256-8bbc-f22d2082bd98.png)
 
-![MRHK_UD_Decomposition](https://user-images.githubusercontent.com/65426380/167514732-2b55fd4e-ba06-473c-a42e-282c56ae44ea.png)
+![MRHK_UD_Decomposition](https://user-images.githubusercontent.com/65426380/181588920-e5418dca-c9ed-46f4-92f7-ad5dbdda29e6.png)
+
 
 # Detailed Method
 
