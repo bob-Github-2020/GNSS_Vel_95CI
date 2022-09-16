@@ -7,6 +7,8 @@ The detailed methods are adressed in:
 Wang, G. (2022). The 95% Confidence Interval for GNSS-Derived Site Velocities, J. Surv. Eng. 2022, 148(1): 04021030. 
 http://doi.org/10.1061/(ASCE)SU.1943-5428.0000390
 
+Cornelison and Wang (2023). GNSS_Vel_95CI.py: A Python Module for Calculating the Uncertainty of GNSS-Derived Site Velocity, J. Surv. Eng. 2022, 149(1): 06022001. http://doi.org/10.1061/(ASCE)SU.1943-5428.0000410
+
 The source codes are avaliable at pip and GitHub:
 
 https://pypi.org/project/GNSS-Vel-95CI
@@ -63,3 +65,5 @@ bob.g.wang@gmail.com
 # Detailed Method
 
 [Methods_Vel_95CI.pdf](https://github.com/bob-Github-2020/GNSS_Vel_95CI/files/7664316/Methods_Vel_95CI.pdf)
+[2022_Cornelison_95CI_Python.pdf](https://github.com/bob-Github-2020/GNSS_Vel_95CI/files/9590444/2022_Cornelison_95CI_Python.pdf)
+
