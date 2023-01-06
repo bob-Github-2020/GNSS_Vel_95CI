@@ -6,7 +6,9 @@
 # https://github.com/bob-Github-2020/GNSS_Vel_95CI
 # The detailed methods are adressed in:
 #    Wang, G. (2022). The 95% Confidence Interval for GNSS-Derived Site Velocities, J. Surv. Eng. 2022, 148(1): 04021030. 
-#    http://doi.org/10.1061/(ASCE)SU.1943-5428.0000390
+#         http://doi.org/10.1061/(ASCE)SU.1943-5428.0000390
+#    Cornelison B. and Wang G.(2023). GNSS_Vel_95CI.py: A Python Module for Calculating the Uncertainty of GNSS-Derived 
+#         Site Velocity. J. Surv. Eng. 2022, 149(1)xxx. https://doi.org/10.1061/(ASCE)SU.1943-5428.0000410
 
 
 import os
