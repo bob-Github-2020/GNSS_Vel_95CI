@@ -1,5 +1,5 @@
 #! /usr/bin/python3
-# Last updated: 09-2-2022, by G. Wang and B. Cornelison
+# Last updated: 01-06-2023, by G. Wang
 # The function for calculating site velocity (b) and its 95%CI
 # You may install the module on your computer by: pip install GNSS_Vel_95CI
 # https://pypi.org/project/GNSS-Vel-95CI/
@@ -7,6 +7,7 @@
 # The detailed methods are adressed in:
 #    Wang, G. (2022). The 95% Confidence Interval for GNSS-Derived Site Velocities, J. Surv. Eng. 2022, 148(1): 04021030. 
 #    http://doi.org/10.1061/(ASCE)SU.1943-5428.0000390
+
 
 import os
 import math
@@ -323,8 +324,7 @@ def cal_95CI(year,ts,GNSS,DIR,output,pltshow):
        plt.title('ACF: '+GNSS+'('+ DIR +')')
 
        plt.savefig(GNSS +'_'+ DIR + "_ACF.pdf")
-       plt.savefig(GNSS +'_'+ DIR + "_ACF.png")
-       plt.clf()
+       plt.savefig(GNSS +'_'+ DIR + "_ACF.png"
        
        # Plot decompositions
        fig, (fig1,fig2,fig3,fig4) = plt.subplots(4, figsize=(16,14))
@@ -409,8 +409,7 @@ def cal_95CI(year,ts,GNSS,DIR,output,pltshow):
 
        fig.savefig(GNSS + '_' + DIR + '_Decomposition.png')
        fig.savefig(GNSS + '_' + DIR + '_Decomposition.pdf')
-       
-       plt.clf()
+  
        
        # output the time series, original and filled
        f1_out = GNSS + "_" + DIR + "_Linear_NonLinear.txt"
