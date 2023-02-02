@@ -8,7 +8,7 @@
 #    Wang, G. (2022). The 95% Confidence Interval for GNSS-Derived Site Velocities, J. Surv. Eng. 2022, 148(1): 04021030. 
 #         http://doi.org/10.1061/(ASCE)SU.1943-5428.0000390
 #    Cornelison B. and Wang G.(2023). GNSS_Vel_95CI.py: A Python Module for Calculating the Uncertainty of GNSS-Derived 
-#         Site Velocity. J. Surv. Eng. 2022, 149(1)xxx. https://doi.org/10.1061/(ASCE)SU.1943-5428.0000410
+#         Site Velocity. J. Surv. Eng. 2023, 149(1): 06022001. https://doi.org/10.1061/(ASCE)SU.1943-5428.0000410
 
 
 import os
@@ -68,7 +68,8 @@ def cal_95CI(year,ts,GNSS,DIR,output,pltshow):
           ts_enu = []
           ts_enu = pd.read_csv (fin, header=0, delim_whitespace=True)
           year = ts_enu.iloc[:,0]    # decimal year
-    
+      
+          # May set plotshow='off' if a bunch of datasets need to be processed.
           dis = ts_enu.iloc[:,1]     # NS
           result_NS=cal_95CI(year,dis,GNSS,DIR='NS',output='on', pltshow='on')
           b_NS=round(result_NS[0],2)          # slope, or site velocity
@@ -86,13 +87,6 @@ def cal_95CI(year,ts,GNSS,DIR,output,pltshow):
        
        else:
           continue
-
-    Reference
-    ---------
-    The detailed methods are adressed in:
-    Wang, G. (2022). The 95% Confidence Interval for GNSS-Derived Site Velocities, J. Surv. Eng. 2022, 148(1): 04021030. 
-    http://doi.org/10.1061/(ASCE)SU.1943-5428.0000390
- 
     """
     
     N=len(ts)             # Total points
