@@ -378,7 +378,7 @@ def cal_95CI(year,ts,GNSS,DIR,output,pltshow):
        fig1.text(0.5, 0.9, 'Site velocity: '+ str_bL + '$\pm$' + str_b95CI+' mm/year', ha='center', va='center', transform=fig1.transAxes,backgroundcolor='1',alpha=1)
        fig1.text(0.1, 0.07, '$SE_b$= '+ str_SEb + ' mm/year', ha='center', va='center', transform=fig1.transAxes)
        fig1.text(0.3, 0.07, '$SE_{bc}$= '+ str_SEbc + ' mm/year', ha='center', va='center', transform=fig1.transAxes)
-       fig1.text(0.7, 0.07, 'Calculated vs. Propjected 95%CI: '+ str_b95CI + ' vs. '+ str_b95CI_mod + ' mm/year', ha='center', va='center', transform=fig1.transAxes)
+       fig1.text(0.7, 0.07, 'Calculated vs. Projected 95%CI: '+ str_b95CI + ' vs. '+ str_b95CI_mod + ' mm/year', ha='center', va='center', transform=fig1.transAxes)
    
 
        fig2.plot(year, Ri,'.',c='0.5')
