@@ -18,7 +18,7 @@ You can install the Python module on your computer by:
   
      pip install GNSS-Vel-95CI
 
-The source code, an example main routine (Main_cal_95CI.py), and sample datasets are archived at my Github site: 
+The source code (GNSS_Vel_95CI.py), an example main routine (Main_cal_95CI.py), and sample datasets are archived at my Github site: 
 
      https://github.com/bob-Github-2020/GNSS_Vel_95CI
  
@@ -29,13 +29,13 @@ You may need to install "pandas", "matplotlib", "statsmodels" on yur computer if
       pip install module-name
 
 
-# How to run the module on your computer? 
+# Run the module on your computers 
 
 Download following files into a folder:
 
     Main_cal_95CI.py
 
-    GNSS_Vel_95CI.py (You donot need this one if you already installed the moduler on your computer by " pip install ")
+    GNSS_Vel_95CI.py (You donot need this one if you already installed the module on your computer by " pip install ")
 
     MRHK_GOM20_neu_cm.col  (sample file)
 
