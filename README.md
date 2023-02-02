@@ -5,10 +5,10 @@ Last updated: 2-2-2023, by Guoquan Wang, bob.g.wang@gmail.com
 GNSS_Vel_95CI.py is a Python module for the calculation of the site velocity (b) and its 95%CI for GNSS-derived daily displacement time series.
 The detailed methods are adressed in:
 
-Wang, G. (2022). The 95% Confidence Interval for GNSS-Derived Site Velocities, J. Surv. Eng. 2022, 148(1): 04021030. 
+Wang, G. (2022). The 95% Confidence Interval for GNSS-Derived Site Velocities, J. Surv. Eng., 148(1): 04021030. 
 http://doi.org/10.1061/(ASCE)SU.1943-5428.0000390
 
-Cornelison and Wang (2023). GNSS_Vel_95CI.py: A Python Module for Calculating the Uncertainty of GNSS-Derived Site Velocity, J. Surv. Eng. 2022, 149(1): 06022001. http://doi.org/10.1061/(ASCE)SU.1943-5428.0000410
+Cornelison and Wang (2023). GNSS_Vel_95CI.py: A Python Module for Calculating the Uncertainty of GNSS-Derived Site Velocity, J. Surv. Eng., 149(1): 06022001. http://doi.org/10.1061/(ASCE)SU.1943-5428.0000410
 
 The module has been archived at pypi.org: 
 
