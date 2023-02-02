@@ -320,7 +320,7 @@ def cal_95CI(year,ts,GNSS,DIR,output,pltshow):
        plt.title('ACF: '+GNSS+'('+ DIR +')')
 
        plt.savefig(GNSS +'_'+ DIR + "_ACF.pdf")
-       plt.savefig(GNSS +'_'+ DIR + "_ACF.png"
+       plt.savefig(GNSS +'_'+ DIR + "_ACF.png")
        
        # Plot decompositions
        fig, (fig1,fig2,fig3,fig4) = plt.subplots(4, figsize=(16,14))
