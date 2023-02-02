@@ -59,7 +59,8 @@ Good Luck!
 
 ![MRHK_UD_ACF](https://user-images.githubusercontent.com/65426380/167514723-83626229-3c40-4256-8bbc-f22d2082bd98.png)
 
-![MRHK_UD_Decomposition](https://user-images.githubusercontent.com/65426380/181590972-d1e231c7-b95f-499a-836f-0e9c0dee0903.png)
+![MRHK_UD_Decomposition](https://user-images.githubusercontent.com/65426380/216451984-49faa96b-cb87-4e4b-972c-c752af3649a3.png)
+
 
 
 # Detailed Method
