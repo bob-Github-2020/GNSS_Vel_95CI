@@ -1,5 +1,6 @@
 # GNSS_Vel_95CI.py
-A Python program for calculating the 95%CI for GNSS-derived site velocities, by B. Cornelison and G. Wang.
+
+Last updated: 2-2-2023, by Guoquan Wang, bob.g.wang@gmail.com
 
 GNSS_Vel_95CI.py is a Python module for the calculation of the site velocity (b) and its 95%CI for GNSS-derived daily displacement time series.
 The detailed methods are adressed in:
@@ -17,7 +18,7 @@ You can install the Python module on your computer by:
   
      pip install GNSS-Vel-95CI
 
-The source code, an example main routine (Main_cal_95CI.py), and sample datasets are archived at Wang's Github site: 
+The source code, an example main routine (Main_cal_95CI.py), and sample datasets are archived at my Github site: 
 
      https://github.com/bob-Github-2020/GNSS_Vel_95CI
  
@@ -25,7 +26,7 @@ Main_cal_95CI.py illustrates the method of calling "GNSS_Vel_95CI.py" in your ow
 
 You may need to install "pandas", "matplotlib", "statsmodels" on yur computer if you have not used them before.
 
-How--- "pip install pandas", "pip install matplotlib", "pip install statsmodels".
+      pip install module-name
 
 
 # How to run the module on your computer? 
@@ -34,7 +35,7 @@ Download following files into a folder:
 
     Main_cal_95CI.py
 
-    GNSS_Vel_95%CI.py (You donot need this one if you already installed the moduler on your computer by pip)
+    GNSS_Vel_95CI.py (You donot need this one if you already installed the moduler on your computer by " pip install ")
 
     MRHK_GOM20_neu_cm.col  (sample file)
 
@@ -42,18 +43,19 @@ Download following files into a folder:
 
 Change your work directory to the folder:
 
-For Linux system users:
+For Linux system users, type the following command in your terminal:
 
-    Type "./Main_cal_95CI.py" in your terminal
+    ./Main_cal_95CI.py
 
-For Windows system users:
+For Windows system users, type the following command in your CMD terminal:
 
-    Type " python Main_cal_95CI.py" in your CMD window
+    python Main_cal_95CI.py (or py Main_cal_95CI.py, python3 Main_cal_95CI.py)
 
 
-Good Luc
+Good Luck!
 
-# Two figures output from the module
+
+# Two example figures output from the module
 
 ![MRHK_UD_ACF](https://user-images.githubusercontent.com/65426380/167514723-83626229-3c40-4256-8bbc-f22d2082bd98.png)
 
